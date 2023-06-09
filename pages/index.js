@@ -1,6 +1,7 @@
 import AboutComponent from "../src/components/AboutComponent";
 import ServicesComponent from "../src/components/ServicesComponent";
 import Layout from "../src/layout/Layout";
+import Image from 'next/image'; // Import the Image component
 
 const Index = () => {
   return (
@@ -20,13 +21,19 @@ const Index = () => {
         <div className="hero_content">
           <div className="container">
             <div className="content">
-            <img className="hero_bottle_img" src="/img/bottle/blueLabel.png" alt="Johnnie Walker Blue Label"/>
+              <Image
+                className="hero_bottle_img"
+                src="/img/bottle/blueLabel.png"
+                alt="Johnnie Walker Blue Label"
+                width={500}
+                height={500}
+              />
 
               {/* <h2 className="fn_title" title="Neoh">
                 Johnni Walker
               </h2> */}
               <p className="fn_desc fn_animated_text">
-              Step into a World of Luxury with Johnnie Walker Blue Label
+                Step into a World of Luxury with Johnnie Walker Blue Label
               </p>
             </div>
           </div>
@@ -41,7 +48,7 @@ const Index = () => {
           </a>
         </div>
       </div>
-      
+
       {/* About Section */}
       <AboutComponent />
       {/* !About Section */}
@@ -53,4 +60,5 @@ const Index = () => {
     </Layout>
   );
 };
+
 export default Index;

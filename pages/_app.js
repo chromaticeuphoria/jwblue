@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import Image from 'next/image'; // Import the Image component
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -20,6 +21,12 @@ function MyApp({ Component, pageProps }) {
         <link type="text/css" rel="stylesheet" href="css/style.css?ver=1.1" />
       </Head>
       <Component {...pageProps} />
+      <Image
+        src="/path/to/image.jpg" // Replace with the actual image path
+        alt="Description of the image" // Add meaningful alt text
+        width={500} // Set the width of the image
+        height={300} // Set the height of the image
+      />
     </Fragment>
   );
 }
