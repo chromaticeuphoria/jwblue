@@ -1,24 +1,19 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
+import YouTube from 'react-youtube';
 
 const ServicesComponent = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const videoRef = useRef(null);
 
-  // Function to play video
-  const playVideo = () => {
-    setIsHovered(true);
-    if (videoRef.current) {
-      videoRef.current.play();
-    }
+  const videoOptions = {
+    height: '720', // Adjust the size of the video player
+    width: '1280', // Adjust the width to maintain 16:9 aspect ratio
+    playerVars: {
+      autoplay: isHovered ? 1 : 0,
+    },
   };
 
-  // Function to pause video
-  const pauseVideo = () => {
-    setIsHovered(false);
-    if (videoRef.current) {
-      videoRef.current.pause();
-    }
-  };
+  const handleMouseEnter = () => setIsHovered(true);
+  const handleMouseLeave = () => setIsHovered(false);
 
   return (
     <div
@@ -30,16 +25,13 @@ const ServicesComponent = () => {
         justifyContent: 'center',
         alignItems: 'center'
       }}
-      onMouseEnter={playVideo}
-      onMouseLeave={pauseVideo}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
-      <h1 style={{color: isHovered ? 'transparent' : 'white'}}>Video Loading...</h1>
-      <video
-        ref={videoRef}
-        height="720" // Adjust the size of the video player
-        style={{ objectFit: 'contain' }}
-        src="img/video/jw1920.mp4"
-        preload="auto"
+      <h1 style={{color: isHovered ? 'transparent' : 'white'}}></h1>
+      <YouTube
+        videoId="OzEI4hXXKaM"
+        opts={videoOptions}
       />
     </div>
   );
