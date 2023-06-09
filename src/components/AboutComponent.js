@@ -19,7 +19,7 @@ const AboutComponent = () => {
             </div>
             <div className="desc">
               <p>
-                Launched in 1992, Johnnie Walker Blue Label salutes the company's inaugural commercial whisky - Old Highland, first unveiled in 1867. Old Highland's creation was marked by the scarcity of available casks, making each selection a matter of significant importance.
+                Launched in 1992, Johnnie Walker Blue Label salutes the company's inaugural commercial whisky, Old Highland, first unveiled in 1867. Old Highland's creation was marked by the scarcity of available casks, making each selection a matter of significant importance.
               </p>
               <p>
                 In our current era, only a scant one in 10,000 casks are deemed worthy to contribute to the Blue Label blend, a harmonious fusion of Scotland's most extraordinary and rare whiskies. Thus, when you present a bottle of this enchanting blue and gold-labelled Johnnie Walker whisky, you're offering more than a gift - you're extending an invitation to a truly exceptional experience.
@@ -50,11 +50,11 @@ const AboutComponent = () => {
             <div className="desc">
               <h2>Nose</h2>
               <p>
-                Take in the wonderfully mellow, rounded nose – replete with dry smokiness artfully mixed with the sweetness of raisins.
+                Take in the wonderfully mellow, rounded nose replete with dry smokiness artfully mixed with the sweetness of raisins.
               </p>
               <h2>Palate</h2>
               <p>
-                Serving a velvety combination of vanilla, honey and rose petals – before broadening out to include a zesty orange flavour with notes of hazelnut, sherry and dark chocolate.
+                Serving a velvety combination of vanilla, honey and rose petals before broadening out to include a zesty orange flavour with notes of hazelnut, sherry and dark chocolate.
               </p>
               <h2>Finish</h2>
               <p>
@@ -85,7 +85,7 @@ const AboutComponent = () => {
             </div>
             <div className="desc">
               <p>
-                Johnnie Walker strides forward with an ambitious sustainability action plan, shaping a future where whisky production is eco-friendly from grain to glass. This plan is our commitment to significantly reduce environmental impact, rejuvenate natural landscapes, and reimagine how our whisky graces glasses worldwide.
+                Johnnie Walker strides forward with an ambitious sustainability action plan, shaping a future where whisky production is ecofriendly from grain to glass. This plan is our commitment to significantly reduce environmental impact, rejuvenate natural landscapes, and reimagine how our whisky graces glasses worldwide.
               </p>
             </div>
             <div className="buttons">
