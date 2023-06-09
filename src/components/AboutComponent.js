@@ -19,10 +19,10 @@ const AboutComponent = () => {
             </div>
             <div className="desc">
               <p>
-                Launched in 1992, Johnnie Walker Blue Label salutes the company's inaugural commercial whisky - Old Highland, first unveiled in 1867. Old Highland's creation was marked by the scarcity of available casks, making each selection a matter of significant importance.
+                Launched in 1992, Johnnie Walker Blue Label salutes the company&apos;s inaugural commercial whisky - Old Highland, first unveiled in 1867. Old Highland&apos;s creation was marked by the scarcity of available casks, making each selection a matter of significant importance.
               </p>
               <p>
-                In our current era, only a scant one in 10,000 casks are deemed worthy to contribute to the Blue Label blend, a harmonious fusion of Scotland's most extraordinary and rare whiskies. Thus, when you present a bottle of this enchanting blue and gold-labelled Johnnie Walker whisky, you're offering more than a gift - you're extending an invitation to a truly exceptional experience.
+                In our current era, only a scant one in 10,000 casks are deemed worthy to contribute to the Blue Label blend, a harmonious fusion of Scotland&apos;s most extraordinary and rare whiskies. Thus, when you present a bottle of this enchanting blue and gold-labelled Johnnie Walker whisky, you&apos;re offering more than a gift - you&apos;re extending an invitation to a truly exceptional experience.
               </p>
             </div>
             <div className="buttons">
@@ -58,7 +58,7 @@ const AboutComponent = () => {
               </p>
               <h2>Finish</h2>
               <p>
-                Signing off with a rich and luxuriously long finish, which showcases Johnnie Walker's trademark smokiness in the most sophisticated way.
+                Signing off with a rich and luxuriously long finish, which showcases Johnnie Walker&apos;s trademark smokiness in the most sophisticated way.
               </p>
             </div>
             <div className="buttons">

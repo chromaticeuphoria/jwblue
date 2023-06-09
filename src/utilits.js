@@ -31,7 +31,6 @@ export const animationText = () => {
             }, time);
           }
         },
-
         offset: "90%",
       });
     }
